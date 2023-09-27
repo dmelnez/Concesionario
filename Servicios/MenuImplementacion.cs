@@ -33,8 +33,8 @@ namespace Gestion_Concesionario.Servicios
              Console.WriteLine("---------------------------------------");
              Console.WriteLine("Seleccion una nueva Opcion");
 
-
-
+            valorIntroducido = Console.ReadKey(true).KeyChar - ('0');
+            return valorIntroducido;
 
         }
 
